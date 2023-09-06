@@ -1,0 +1,199 @@
+  :root {
+   --color-brand: #2E2F42;
+   --color-primary: #FFFFFF;
+   --color-primaty-light: #F4F4FD;
+  }
+  
+  body {
+   background-color: #ffffff;
+   color:#434455;
+   font-family: 'Roboto', sans-serif;
+
+  }
+ .logo {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    font-style: normal;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+ }
+ span {
+    color: #2E2F42;
+    ;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+ }
+.nav-link {
+   color: #2E2F42;
+   font-weight: 500;
+   line-height: 1.5; 
+   letter-spacing: 0.02em;
+ }
+ .nav-link:hover, .nav-link:focus {
+   color: #404bbf;
+   text-decoration: underline;
+   }
+
+  .header-link:hover {
+   color: #404bbf;
+   font-family: Roboto;
+   font-size: 16px;
+  }
+  address {
+   font-style: normal;   
+  }
+ .address-link {
+   color: #434455;
+   font-family: Roboto;
+   font-style: normal;    
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+ }
+ .address-link:hover,.address-link:focus {
+   color: #404bbf ;
+ }
+ 
+ .effective-section {
+    background-color: var(--color-brand);
+ }
+ .effect-title {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+ }
+ .button-primary {
+    background: #4D5AE5;
+    color: var(--color-primary);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+ }
+ .button-primary:hover {
+   background-color: #404BBF;
+ }
+ .button-primary:focus {
+    background-color: #404BBF;  
+ }
+  .section-2 {
+   background-color: var(--color-primary);
+  }
+ .title {
+  color: var(--color-brand);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+ }
+ .text {
+   color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+ }
+        /* section-3 */
+ .light-bt {
+  background: var(--color-primaty-light);
+ }
+ .card {
+   color: var(--color-brand);
+   background-color: #FFFFFF;
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+ }
+ .list {
+   background-color: #ffffff;
+ }
+ .name {
+   color: var(--color-brand);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+ }
+ .prof {
+   color: #434455;
+   background-color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+ }
+       /* section-4 */
+ .portfolio {
+   color: var(--color-brand);
+   background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+ }
+ .card-content {
+   color: var(--color-brand);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+ }
+ .card-text {
+   color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  line-height: 1.5; 
+ }
+ .footer-section {
+   background-color: var(--color-brand);
+
+ }
+.logo-2 {
+   color: #4d5ae5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 0.54px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+.footer-text {
+   color: var(--color-primaty-light);
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   text-align: left;
+}
+.logo-footer-accent {
+   color: var(--color-primaty-light);
+}
