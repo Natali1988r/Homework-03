@@ -39,15 +39,29 @@
    color: #404bbf;
    text-decoration: underline;
    }
-
+       /* header*/
+   .container {
+    max-width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+   }
+   .header-container {
+    display: flex;
+    justify-content: space-between;
+   }
   .header-link:hover {
    color: #404bbf;
    font-family: Roboto;
    font-size: 16px;
   }
-  address {
-   font-style: normal;   
+  .header-address {
+  display: flex;
+  justify-content: space-between;
   }
+  address {
+   font-style: normal;  
+  }
+  
  .address-link {
    color: #434455;
    font-family: Roboto;
