@@ -99,10 +99,28 @@
  .address-link:hover,.address-link:focus {
    color: #404bbf ;
  }
- 
- .effective-section {
+   /* effection-part*/
+   .effective-section {
+    background: #2E2F42;
+    padding: 0;
+    border-radius: 0%;
+  }
+  .container {
+    max-width: 1158px;
+    margin: auto;
+    padding: 0%;
+  }
+
+  .effect-inner {
     background-color: var(--color-brand);
- }
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    border: 0;
+    margin: 188px 472px 292px 472px;
+  }
+ 
  .effect-title {
     color: var(--color-primary);
     font-weight: 500;
@@ -110,7 +128,12 @@
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    gap: 48px;
+    
+    
  }
+
+
  .button-primary {
     background: #4D5AE5;
     color: var(--color-primary);
@@ -120,6 +143,22 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
+.button {
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px;
+  text-align: center;
+}
+    
+
+
+
+
+
  }
  .button-primary:hover {
    background-color: #404BBF;
