@@ -31,15 +31,11 @@
   margin-right: auto;
   justify-content: center;
 }
-  .container {
+  .header-inner {
     display: flex;
-    max-width: 1158px;
+    width: 1158px;
     margin: auto;
     padding: 0 15px;
-  }
-  .header-inner {
-  display: flex;
-  justify-content: space-between;
   }
 
   .nav-list {
@@ -65,7 +61,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-left: 156px;
+    
     
  }
  span {
