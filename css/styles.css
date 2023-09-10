@@ -85,6 +85,15 @@
    text-decoration: underline;
    }
       
+   .address-list {
+    display: inline-block;
+   font-style: normal;
+   color: var(--SLATE, #434455);
+   font-size: 16px;
+   line-height: 1,5px;
+   letter-spacing: 0.02em;
+   margin: auto;
+   }
   .address-container {
     display: flex;
     list-style-type: none;
@@ -93,15 +102,13 @@
     gap: 40px;
   }
   
- .address-link {
-   display: inline-block;
-   font-style: normal;
+ .address-info {
+   padding: 24px 0;
  }
- .address-link:hover,.address-link:focus {
+ .address-info:hover,.address-link:focus {
    color: #404bbf ;
  }
-
-
+ 
 
    /* effection-part*/
    .effective-section {
@@ -141,15 +148,6 @@
 
 
  .button-primary {
-  background-color: #4d5ae5;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px; 
-  cursor: pointer;
- }
-.button {
   background: #4D5AE5;
   color: var(--color-primary);
   font-family: "Roboto", sans-serif;
@@ -159,12 +157,22 @@
   letter-spacing: 0.04em;
   display: block;
   padding: 16px 32px;
-  box-shadow: 0px 4px 4px 0px;
+  
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 48px;
   gap: 10px;
+ }
+.button {
+  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px;
 }   
  
  .button-primary:hover {
@@ -225,20 +233,22 @@
  }
 
 
-        /* section-3 */
+        /* section-2 */
  .light-bt {
   background: var(--color-primaty-light);
   padding: 120px 0;
+  width: 1440px;
+  height: 732px;
  }
  .card {
    color: var(--color-brand);
-   background-color: #FFFFFF;
    font-family: Roboto;
    font-size: 36px;
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    margin-bottom: 72px;
+   text-align: center;
  }
  .card-list {
   list-style-type: none;
@@ -324,6 +334,7 @@
    padding: 100px 0;
    display: flex;
    flex-direction: column;
+   
  }
 .logo-2 {
    color: #4d5ae5;
@@ -333,9 +344,12 @@
    font-weight: 700;
    text-transform: uppercase;
    text-decoration: none;
-  line-height: 1.17; 
-  letter-spacing: 0.03em;
+   line-height: 1.17; 
+   letter-spacing: 0.03em;
    margin-bottom: 16px;
+   margin-left: 156px;
+   
+   
 }
 .footer-text {
    color: var(--color-primaty-light);
@@ -343,7 +357,9 @@
    line-height: 1.5;
    letter-spacing: 0.02em;
    width: 264px;
-   margin-top: 16px;
+   margin-top: 17,5px;
+   margin-left: 156px;
+   
 }
 
 .logo-footer-accent {
