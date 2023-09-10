@@ -250,18 +250,21 @@
    text-transform: capitalize;
    margin-bottom: 72px;
    text-align: center;
+   
  }
  .card-list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+ 
  }
  .list {
    background-color: #ffffff;
    border-radius: 0px 0px 4px 4px;
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px
     rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  gap: 24px;
+  width: calc((100% - 72px) / 4); 
  }
  .name-info {
   padding: 32px 0;
@@ -332,9 +335,11 @@
 
  .footer-section {
    background-color: var(--color-brand);
-   padding: 100px 0;
-   display: flex;
-   flex-direction: column;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+
+
  }
  
 .logo-2 {
