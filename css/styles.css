@@ -326,11 +326,8 @@
 
  .footer-section {
    background-color: var(--color-brand);
-   padding-top: 100px;
+   padding: 100px;
    padding-bottom: 100px;
-
-
-
  }
  
 .logo-item {
