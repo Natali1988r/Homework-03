@@ -30,7 +30,7 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  padding: 24px 0;
+  
 }
   .header-inner {
     display: flex;
@@ -81,7 +81,8 @@
   align-items: center;
  }
 .nav-link {
-   
+   display: block;
+   padding: 24px 0;
  }
  .nav-link:hover, .nav-link:focus {
    color: #404bbf;
