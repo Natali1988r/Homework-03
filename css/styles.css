@@ -38,13 +38,16 @@
 .container-header-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
  .header-nav{
 display: flex;
 align-items: center;
+flex-grow: 1;
  }
   .logo {
+    display: flex;
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -68,8 +71,11 @@ align-items: center;
     display: flex;
     gap: 40px;
     align-items: flex-start;
+    flex-grow: 1;
+    justify-content: center;
   }
   .nav-list-item {
+
   }
   .nav-link {
     color: var(--SLATE, #434455);
