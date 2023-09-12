@@ -33,18 +33,19 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  
+  width: 1440px;
 }
 .container-header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1158px;
 }
 
  .header-nav{
 display: flex;
 align-items: center;
-flex-grow: 1;
+
  }
   .logo {
     display: flex;
